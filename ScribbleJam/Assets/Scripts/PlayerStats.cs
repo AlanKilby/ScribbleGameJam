@@ -27,10 +27,12 @@ public class PlayerStats : MonoBehaviour
         else if(playerHP == 2)
         {
             hearts[playerHP].SetActive(false);
+            hearts[playerHP-1].SetActive(true);
         }
         else if(playerHP == 1)
         {
             hearts[playerHP].SetActive(false);
+            hearts[playerHP - 1].SetActive(true);
         }
         else if( playerHP <= 0)
         {

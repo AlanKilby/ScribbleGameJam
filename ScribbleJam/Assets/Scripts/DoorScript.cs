@@ -22,6 +22,7 @@ public class DoorScript : MonoBehaviour
         if(canBeOpened == true)
         {
             player.GetComponent<PlayerStats>().YouWin();
+            Debug.Log("DoorOpen");
         }
     }
 }
