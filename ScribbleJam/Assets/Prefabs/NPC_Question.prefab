@@ -399,6 +399,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 533c711e7630e2c479c20bf5f27746ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  questionText: {fileID: 2715777553045469553}
+  newQuestion: Perfect then. thank you!
+  rightAnswer: {fileID: 0}
+  wrongAnswers: []
 --- !u!1 &2715777553045469555
 GameObject:
   m_ObjectHideFlags: 0
