@@ -649,6 +649,16 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2715777552254243335, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 584486890}
+    - target: {fileID: 2715777552254243335, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
     - target: {fileID: 2715777552271010961, guid: 7d8f17395a6a4364f875bf786816913d,
         type: 3}
       propertyPath: m_Text
@@ -799,10 +809,40 @@ PrefabInstance:
       propertyPath: m_Text
       value: Hey, do you know how many apples are on this tree ?
       objectReference: {fileID: 0}
+    - target: {fileID: 2715777553105755932, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 584486890}
+    - target: {fileID: 2715777553105755932, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2715777553261677512, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 584486890}
+    - target: {fileID: 2715777553261677512, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RightAnswer
+      objectReference: {fileID: 0}
     - target: {fileID: 2715777553932461488, guid: 7d8f17395a6a4364f875bf786816913d,
         type: 3}
       propertyPath: m_Text
       value: This is not a banana
+      objectReference: {fileID: 0}
+    - target: {fileID: 2715777554093664447, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 584486890}
+    - target: {fileID: 2715777554093664447, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
       objectReference: {fileID: 0}
     - target: {fileID: 2715777554217043913, guid: 7d8f17395a6a4364f875bf786816913d,
         type: 3}
@@ -1246,6 +1286,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: f5e920efd79db4d4887f285e2bb70b80,
         type: 3}
+    - target: {fileID: 1238674667400854068, guid: 3574de4c50175ab4281e6113530b5dac,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238674667400854068, guid: 3574de4c50175ab4281e6113530b5dac,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238674667400854068, guid: 3574de4c50175ab4281e6113530b5dac,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1238674667400854069, guid: 3574de4c50175ab4281e6113530b5dac,
         type: 3}
       propertyPath: npcTextInterface
@@ -1565,6 +1620,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 148538448}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &584486890 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2715777552693382301, guid: 7d8f17395a6a4364f875bf786816913d,
+    type: 3}
+  m_PrefabInstance: {fileID: 148538448}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584486889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 533c711e7630e2c479c20bf5f27746ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &610103140 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2715777554093664441, guid: 7d8f17395a6a4364f875bf786816913d,
@@ -1655,6 +1722,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 6b3055fb62d96ad4d9b79a69dea1d2c6,
         type: 3}
+    - target: {fileID: 1238674667400854068, guid: 3574de4c50175ab4281e6113530b5dac,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238674667400854068, guid: 3574de4c50175ab4281e6113530b5dac,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238674667400854068, guid: 3574de4c50175ab4281e6113530b5dac,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1238674667400854069, guid: 3574de4c50175ab4281e6113530b5dac,
         type: 3}
       propertyPath: npcTextInterface
@@ -2274,6 +2356,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 5d56d2921ed3ecf438b9e4fe8d1475c1,
         type: 3}
+    - target: {fileID: 1238674667400854068, guid: 3574de4c50175ab4281e6113530b5dac,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238674667400854068, guid: 3574de4c50175ab4281e6113530b5dac,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238674667400854068, guid: 3574de4c50175ab4281e6113530b5dac,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1238674667400854069, guid: 3574de4c50175ab4281e6113530b5dac,
         type: 3}
       propertyPath: npcTextInterface
@@ -2624,6 +2721,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1242257127}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1093263547 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2715777552693382301, guid: 7d8f17395a6a4364f875bf786816913d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1242257127}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093263546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 533c711e7630e2c479c20bf5f27746ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1139872168
 GameObject:
   m_ObjectHideFlags: 0
@@ -2971,6 +3080,26 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a464a856e4415d5468f49680e3d9e5f2,
         type: 3}
+    - target: {fileID: 1238674667400854068, guid: 3574de4c50175ab4281e6113530b5dac,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238674667400854068, guid: 3574de4c50175ab4281e6113530b5dac,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238674667400854068, guid: 3574de4c50175ab4281e6113530b5dac,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238674667400854068, guid: 3574de4c50175ab4281e6113530b5dac,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1238674667400854069, guid: 3574de4c50175ab4281e6113530b5dac,
         type: 3}
       propertyPath: npcTextInterface
@@ -3250,6 +3379,16 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2715777552254243335, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1093263547}
+    - target: {fileID: 2715777552254243335, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
     - target: {fileID: 2715777552271010961, guid: 7d8f17395a6a4364f875bf786816913d,
         type: 3}
       propertyPath: m_Text
@@ -3407,10 +3546,40 @@ PrefabInstance:
       propertyPath: m_FontData.m_FontStyle
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2715777553105755932, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1093263547}
+    - target: {fileID: 2715777553105755932, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RightAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2715777553261677512, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1093263547}
+    - target: {fileID: 2715777553261677512, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
     - target: {fileID: 2715777553932461488, guid: 7d8f17395a6a4364f875bf786816913d,
         type: 3}
       propertyPath: m_Text
       value: Sorry I'm not a mecanician
+      objectReference: {fileID: 0}
+    - target: {fileID: 2715777554093664447, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1093263547}
+    - target: {fileID: 2715777554093664447, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
       objectReference: {fileID: 0}
     - target: {fileID: 2715777554217043913, guid: 7d8f17395a6a4364f875bf786816913d,
         type: 3}
@@ -3463,6 +3632,16 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2715777552254243335, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1288275208}
+    - target: {fileID: 2715777552254243335, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
     - target: {fileID: 2715777552271010961, guid: 7d8f17395a6a4364f875bf786816913d,
         type: 3}
       propertyPath: m_Text
@@ -3498,6 +3677,11 @@ PrefabInstance:
       propertyPath: newQuestion
       value: Thank you darling, take this key. You might need it.
       objectReference: {fileID: 0}
+    - target: {fileID: 2715777552693382301, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: wrongAnswers.Array.data[1]
+      value: 
+      objectReference: {fileID: 1562097934}
     - target: {fileID: 2715777552693382302, guid: 7d8f17395a6a4364f875bf786816913d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3613,10 +3797,40 @@ PrefabInstance:
       propertyPath: m_Text
       value: Oh hello darling. Have you seen my dear cat ?
       objectReference: {fileID: 0}
+    - target: {fileID: 2715777553105755932, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1288275208}
+    - target: {fileID: 2715777553105755932, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RightAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2715777553261677512, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1288275208}
+    - target: {fileID: 2715777553261677512, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
     - target: {fileID: 2715777553932461488, guid: 7d8f17395a6a4364f875bf786816913d,
         type: 3}
       propertyPath: m_Text
       value: He may have gone on vacation
+      objectReference: {fileID: 0}
+    - target: {fileID: 2715777554093664447, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1288275208}
+    - target: {fileID: 2715777554093664447, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
       objectReference: {fileID: 0}
     - target: {fileID: 2715777554217043913, guid: 7d8f17395a6a4364f875bf786816913d,
         type: 3}
@@ -3647,6 +3861,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1280255568}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1288275208 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2715777552693382301, guid: 7d8f17395a6a4364f875bf786816913d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1280255568}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288275207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 533c711e7630e2c479c20bf5f27746ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1322084278
 GameObject:
   m_ObjectHideFlags: 0
@@ -4163,6 +4389,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1562097934 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2715777552254243329, guid: 7d8f17395a6a4364f875bf786816913d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1280255568}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1580069038 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1238674667400854071, guid: 3574de4c50175ab4281e6113530b5dac,
@@ -4888,6 +5120,12 @@ PrefabInstance:
       propertyPath: m_Text
       value: Stranger ! Do you think you need anything ?
       objectReference: {fileID: 0}
+    - target: {fileID: 2715777553045469553, guid: 7d8f17395a6a4364f875bf786816913d,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 8493d92009a003a4489b91fdfb75013f,
+        type: 3}
     - target: {fileID: 2715777553932461488, guid: 7d8f17395a6a4364f875bf786816913d,
         type: 3}
       propertyPath: m_Text
